@@ -15,5 +15,5 @@ int secontDigit = number % 10; //78 = 70 + 8
 if(firstDigit > secontDigit) Console.WriteLine($"Наибольшая цифра числа -> {firstDigit}");// второй способ
 else Console.WriteLine ($"Наибольшая цифра числа -> {secontDigit}");
 
-int maxDigit = firstDigit > secontDigit ? firstDigit : secontDigit; // второй способ Тернарный оператор
+int maxDigit = firstDigit > secontDigit ? firstDigit : secontDigit; // второй способ Тернарный оператор, где ? это тогда, а : иначе
 Console.WriteLine ($"Наибольшая цифра числа -> {maxDigit}");
